@@ -16,7 +16,6 @@ body {
 }
 
 header {
-    display: flex;
     background-color: rgba(128, 128, 128, 0.650);
     border: 1px solid black;
     font-size: 55px;
