@@ -103,10 +103,21 @@ li {
     left: 30%;
 }
 
+.bait-vid {
+    position: absolute;
+    right: 10%;
+    top: 20.5%;
+}
+
 .column-container {
     display: grid;
     grid-template-columns: 1fr auto;
     gap: 20px;
+}
+
+.social-media {
+    position: fixed;
+    top: 15%;
 }
 
 /* nav-list */
