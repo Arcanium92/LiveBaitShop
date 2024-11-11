@@ -1,0 +1,144 @@
+body {
+    font-size: large;
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+    .container {
+        width: 700px;
+    }
+
+    .container1 {
+        width: fit-content;
+        position: absolute;
+        top: 22.5%;
+        left: 30%;
+    }
+
+    .bait-vid {
+        display: block;
+        position: absolute;
+        right: 10%;
+        top: 20.5%;
+    }
+
+    .column-container {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 20px;
+    }
+}
+
+/* Tablet view */
+@media (min-width: 481px) and (max-width: 1024px) {
+    .container, .container1 {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .column-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bait-vid {
+        display: none;
+    }
+
+    table, th, td {
+        font-size: 14px;
+    }
+
+    th {
+        font-size: 18px;
+    }
+
+    .item-name {
+        font-size: 16px;
+    }
+
+    .price {
+        font-size: 12px;
+    }
+
+    ul {
+        font-size: 20px;
+    }
+
+    li {
+        font-size: 18px;
+    }
+
+    .nav-list {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .nav-list a {
+        font-size: 28px;
+        padding: 8px;
+        margin: 10px;
+    }
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+    header {
+        font-size: 30px;
+    }
+
+    footer {
+        font-size: 18px;
+    }
+
+    .container, .container1 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .bait-vid {
+        display: none;
+    }
+
+    .column-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .nav-list a {
+        font-size: 20px;
+        padding: 5px;
+        margin: 5px 0;
+    }
+
+    table, th, td {
+        font-size: 12px;
+    }
+
+    th {
+        font-size: 16px;
+    }
+
+    .item-name {
+        font-size: 14px;
+    }
+
+    .price {
+        font-size: 10px;
+    }
+
+    ul {
+        font-size: 18px;
+    }
+
+    li {
+        font-size: 16px;
+    }
+}
